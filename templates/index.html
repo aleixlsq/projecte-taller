@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Taller Mecànic - Demana Cita</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <h1>Taller Mecànic</h1>
+    <h2>Demana la teva cita</h2>
+
+    <form id="citaForm">
+        <select id="vehicle_id" required>
+            <option value="">-- Selecciona un vehicle --</option>
+        </select>
+        <input type="date" id="data_cita" required>
+        <input type="text" id="servei_sollicitat" placeholder="Servei sol·licitat" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
